@@ -10,7 +10,7 @@ public abstract class AbstractSkiPass implements SkiPass {
     }
 
     @Override
-    public Boolean isBlocked() {
+    public boolean isBlocked() {
         return isBlocked;
     }
 }

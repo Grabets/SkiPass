@@ -1,24 +1,14 @@
 package com.SkiPass.service;
 
+import lombok.Getter;
+
+@Getter
 public enum UpsQuantity {
-    TEN{
-        public int getValue(){
-            return 10;
-        }
-    },
-    TWENTY{
-        public int getValue(){
-            return 20;
-        }
-    },
-    FIFTY{
-        public int getValue(){
-            return 30;
-        }
-    },
-    ONE_HUNDRED{
-        public int getValue(){
-            return 40;
-        }
+    TEN(10), TWENTY(20), FIFTY(50), ONE_HUNDRED(100);
+
+    private int quantity;
+
+    UpsQuantity (int quantity){
+        this.quantity = quantity;
     }
 }

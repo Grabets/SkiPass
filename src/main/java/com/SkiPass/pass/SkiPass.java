@@ -1,9 +1,8 @@
 package com.SkiPass.pass;
 
 public interface SkiPass {
+
     String getId();
-
-    Boolean isBlocked();
-
-
+    boolean isBlocked();
+    class Builder {}
 }
