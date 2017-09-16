@@ -12,4 +12,7 @@ public class CurrentDateTime {
         return currentDateTime;
     }
 
+    public static void setCurrentDateTime(LocalDateTime currentDateTime) {
+        CurrentDateTime.currentDateTime = currentDateTime;
+    }
 }

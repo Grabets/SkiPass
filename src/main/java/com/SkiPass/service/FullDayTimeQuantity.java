@@ -6,7 +6,8 @@ import lombok.Getter;
 public enum FullDayTimeQuantity {
     DAY(1),
     TWO_DAY(2),
-    THREE_DAY(3);
+    THREE_DAY(3),
+    FIVE_DAY(5);
 
     private int quantityOfDays;
 
